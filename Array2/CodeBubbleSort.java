@@ -1,6 +1,7 @@
-package CodingNinjas.Array2;
+package Array2;
 import java.util.Scanner;
 public class CodeBubbleSort {
+	static Scanner s = new Scanner(System.in);
     public static void bubbleSort(int[] arr){
     	//Your code goes here
         for(int i=0;i<arr.length-1;i++) {
@@ -14,7 +15,6 @@ public class CodeBubbleSort {
         }
     }
 	public static int[] takeInput() {
-		Scanner s = new Scanner(System.in);
 		int n = s.nextInt();
 		int[] arr = new int[n];
 		for(int i=0;i<n;i++) {
@@ -30,7 +30,6 @@ public class CodeBubbleSort {
 	}
 
 	public static void main(String[] args) {
-		Scanner s = new Scanner(System.in);
 		int t = s.nextInt();
 		
 		while(t!=0 && 1<=t && t<=100) {

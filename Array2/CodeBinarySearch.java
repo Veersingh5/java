@@ -1,7 +1,7 @@
-package CodingNinjas.Array2;
+package Array2;
 import java.util.Scanner;
 public class CodeBinarySearch {
-
+    static Scanner s = new Scanner(System.in);
     public static int binarySearch(int[] arr, int x) {
     	//Your code goes here
         int start = 0;
@@ -22,7 +22,6 @@ public class CodeBinarySearch {
     }
 
     public static void main(String[] args) {
-		Scanner s = new Scanner(System.in);
 			int n = s.nextInt();
 			int[] arr = new int[n];
 			

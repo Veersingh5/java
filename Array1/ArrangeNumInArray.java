@@ -1,6 +1,7 @@
-package CodingNinjas.Array1;
+package Array1;
 import java.util.Scanner;
 public class ArrangeNumInArray {
+	static Scanner s = new Scanner(System.in);
     public static void ArrangeNum(int[] arr,int n) {
 		int x=1;
 		int y=0;
@@ -29,7 +30,8 @@ public class ArrangeNumInArray {
 	}
 
 	public static void main(String[] args) {
-		Scanner s = new Scanner(System.in);
+
+		
 		int t = s.nextInt();
 		
 		while(t!=0 && 1<=t && t<=100) {

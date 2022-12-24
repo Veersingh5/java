@@ -1,6 +1,7 @@
-package CodingNinjas.Array2;
+package Array2;
 import java.util.Scanner;
 public class CodeMergeTwoSortedArray {
+    static Scanner s = new Scanner(System.in);
     public static int[] merge(int arr1[], int arr2[]) {
     	//Your code goes here
         int m = arr1.length;
@@ -33,7 +34,6 @@ public class CodeMergeTwoSortedArray {
         return arr;
     }
     public static int[] takeInput() {
-        Scanner s = new Scanner(System.in);
         int n = s.nextInt();
         int[] arr = new int[n];
         for(int i=0;i<n;i++) {
@@ -49,7 +49,6 @@ public class CodeMergeTwoSortedArray {
 	}
 
 	public static void main(String[] args) {
-		Scanner s = new Scanner(System.in);
 		int t = s.nextInt();
 		
 		while(t!=0 && 1<=t && t<=100) {

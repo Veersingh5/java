@@ -1,6 +1,7 @@
-package CodingNinjas.Array2.Assignment;
+package Array2.Assignment;
 import java.util.Scanner;
 public class SecondLargestArray {
+    static Scanner s = new Scanner(System.in);
     public static int secondLargestElement(int[] arr) {
     	//Your code goes here
     int l = Integer.MIN_VALUE;
@@ -21,7 +22,6 @@ public static void display(int[] arr) {
 }
 
 public static void main(String[] args) {
-    Scanner s = new Scanner(System.in);
     int t = s.nextInt();
     
     while(t!=0 && 1<=t && t<=100) {

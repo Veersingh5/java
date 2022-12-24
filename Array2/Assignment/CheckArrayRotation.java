@@ -1,6 +1,7 @@
-package CodingNinjas.Array2.Assignment;
+package Array2.Assignment;
 import java.util.Scanner;
 public class CheckArrayRotation {
+    static Scanner s = new Scanner(System.in);
     public static int arrayRotateCheck(int[] arr){
     	//Your code goes here
          int out = 0;
@@ -16,7 +17,6 @@ public class CheckArrayRotation {
 		   System.out.println(arrayRotateCheck(arr));
 	}
     public static int[] takeInput() {
-        Scanner s = new Scanner(System.in);
         int n = s.nextInt();
         int[] arr = new int[n];
         for(int i=0;i<n;i++) {
@@ -25,7 +25,6 @@ public class CheckArrayRotation {
         return arr;
     }
 	public static void main(String[] args) {
-		Scanner s = new Scanner(System.in);
 		int t = s.nextInt();
 		
 		while(t>0 && 1<=t && t<=100) {

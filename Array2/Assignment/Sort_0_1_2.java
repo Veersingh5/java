@@ -1,6 +1,7 @@
-package CodingNinjas.Array2.Assignment;
+package Array2.Assignment;
 import java.util.Scanner;
 public class Sort_0_1_2 {
+    static Scanner s = new Scanner(System.in);
     public static void sort012(int[] arr){
     	//Your code goes here
         int indexOf0 = 0;
@@ -29,7 +30,6 @@ public class Sort_0_1_2 {
         System.out.println();
     }
     public static int[] takeInput() {
-     Scanner s = new Scanner(System.in);
      int n = s.nextInt();
      int[] arr = new int[n];
      for(int i=0;i<n;i++) {
@@ -38,7 +38,6 @@ public class Sort_0_1_2 {
      return arr;
      }
      public static void main(String[] args) {
-     Scanner s = new Scanner(System.in);
      int t = s.nextInt();
      
      while(t!=0 && 1<=t && t<=100) {

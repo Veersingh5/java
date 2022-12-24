@@ -1,6 +1,7 @@
-package CodingNinjas.Array1.Assignment;
+package Array1.Assignment;
 import java.util.Scanner;
 public class SwapAlternate {
+	static Scanner s = new Scanner(System.in);
     public static void Swap(int[] arr) {
 		for(int i=0;i<arr.length-1;i+=2) {
 			int temp = arr[i];
@@ -16,7 +17,6 @@ public class SwapAlternate {
 	}
 
 	public static void main(String[] args) {
-		Scanner s = new Scanner(System.in);
 		int t = s.nextInt();
 		
 		while(t!=0 && 1<=t && t<=100) {
